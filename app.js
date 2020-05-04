@@ -16,7 +16,7 @@ const orderRoutes = require("./routes/order.js");
 
 
 // DB connection
-mongoose.connect(process.env.MONGODB_URI || process.env.DATABASE, {
+mongoose.connect(process.env.MONGODB_URI , {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true
